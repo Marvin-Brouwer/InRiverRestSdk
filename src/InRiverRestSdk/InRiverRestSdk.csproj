@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net6.0;net7.0</TargetFrameworks>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Refit" Version="7.0.0" />
+	</ItemGroup>
+
+	<PropertyGroup>
+		<InvokePwsh>pwsh -NoProfile -ExecutionPolicy unrestricted</InvokePwsh>
+		<GenerateSdk>$(InvokePwsh) -file $(SolutionDir)InRiverRestSdk\Scripts\GenerateInterface.ps1</GenerateSdk>
+	</PropertyGroup>
+
+	<Target Name="GenerateSdk" BeforeTargets="BeforeBuild">
+		<Exec ConsoleToMsBuild="true" Command="$(GenerateSdk)" />
+	</Target>
+
+</Project>

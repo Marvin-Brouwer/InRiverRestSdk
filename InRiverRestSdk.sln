@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InRiverRestSdk", "src\InRiverRestSdk\InRiverRestSdk.csproj", "{2C910067-0C6B-4B16-903A-9F1EB2572AC9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C910067-0C6B-4B16-903A-9F1EB2572AC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C910067-0C6B-4B16-903A-9F1EB2572AC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C910067-0C6B-4B16-903A-9F1EB2572AC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C910067-0C6B-4B16-903A-9F1EB2572AC9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4CB19C73-7E07-478F-A810-8B4C0079E4DF}
+	EndGlobalSection
+EndGlobal
